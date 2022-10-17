@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let dlugosc_tablicy;
+
+      do {
+        dlugosc_tablicy = prompt("podaj ilosc elementow w tablicy");
+      } while (isNaN(dlugosc_tablicy));
+
+      let Tab = [];
+
+      for (let i = 0; i < dlugosc_tablicy; i++) {
+        Tab[i] = prompt("podaj element");
+      }
+      document.write("Elementy Tablicy:");
+      for (let i = 0; i < dlugosc_tablicy; i++) {
+        document.write(+Tab[i] + " ");
+      }
+
+      
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
