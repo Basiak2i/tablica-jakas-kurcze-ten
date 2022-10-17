@@ -1,0 +1,1 @@
+# tablica-jakas-kurcze-ten
