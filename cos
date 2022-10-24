@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Zadanie tablice</title>
+  </head>
+  <body>
+    <script>
+      let wielkosc_tablicy;
+
+      do {
+        wielkosc_tablicy = prompt(
+          "Podaj ilość elementów, jakie chcesz wprowadzić od 10 do 20"
+        );
+      } while (isNaN(wielkosc_tablicy));
+      if(wielkosc_tablicy >= 10 && 20 >= wielkosc_tablicy) {
+
+      let tab = [];
+      tab.length=wielkosc_tablicy;
+      let liczba;
+      
+      } else {
+          document.write("blad")
+      }
+      for
+    </script>
+  </body>
+</html>
